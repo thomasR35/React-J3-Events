@@ -27,7 +27,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 button,
 a {
   display: flex;

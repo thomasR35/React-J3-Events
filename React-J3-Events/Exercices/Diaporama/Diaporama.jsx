@@ -52,9 +52,9 @@ const Diapo = () => {
         alt={`Image ${currentIndex + 1}`}
         style={{
           width: "100%",
-          maxWidth: "600px",
-          maxHeight: "500px",
-          objectFit: "contain",
+          maxWidth: "400px",
+          maxHeight: "400px",
+          objectFit: "fill",
           marginTop: "20px",
         }}
         onMouseEnter={() => setIsPaused(true)}
