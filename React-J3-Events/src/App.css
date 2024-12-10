@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 
 .Counter {
@@ -27,6 +28,16 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
 button,
 a {
   display: flex;
@@ -67,4 +78,92 @@ a:hover {
 h1 {
   color: bisque;
   margin-bottom: 20px;
+}
+
+form {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: bisque;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4caf50;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+header img {
+  width: 120px;
+  height: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+td {
+  color: bisque;
 }

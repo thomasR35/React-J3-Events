@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import CounterApp from "../Exercices/Counter/counter.jsx";
 import Diapo from "../Exercices/Diaporama/Diaporama.jsx";
+import Form from "../Exercices/Formulaire/form.jsx";
 
 function App() {
   const Link = () => {
@@ -80,6 +81,7 @@ function App() {
       <ButtonWithAckToogle />
       <CounterApp />
       <Diapo />
+      <Form />
     </div>
   );
 }
